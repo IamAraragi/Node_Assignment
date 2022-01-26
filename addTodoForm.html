@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .title,
+      .description,
+      .status,
+      .submit-btn {
+        display: block;
+        padding-bottom: 5px;
+      }
+
+      .title-div,
+      .description-div,
+      .status-div {
+        padding-bottom: 10px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container" id="todo">
+      <form action="/todos" method="POST">
+        <div class="title-div">
+          <label for="title" class="title">Title</label>
+          <input type="text" placeholder="Title" name="title" />
+        </div>
+        <div class="description-div">
+          <label for="decription" class="description">Description</label>
+          <input type="text" placeholder="Description" name="description" />
+        </div>
+        <div class="status-div">
+          <label for="status" class="status">Status</label>
+          <input type="text" placeholder="Status" name="status" />
+        </div>
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

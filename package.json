@@ -1,0 +1,18 @@
+{
+  "name": "node_exercise",
+  "version": "1.0.0",
+  "description": "Node Exercise",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "joi": "^17.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Abhishek Shrestha",
+  "license": "ISC"
+}
